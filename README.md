@@ -2,4 +2,4 @@
 
 **Gradual Syntactic Label Replacement for Language Model Pre-training**
 
-![pipeline](./figs/cl-example.pdf )
+<img src="./figs/cl-example.png">
