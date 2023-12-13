@@ -13,9 +13,9 @@ pip install en_core_web_sm-2.3.0.tar.gz
 ```
 
 ## Parse the sentences in the corpus
-- prepare model [benepar_en3](https://github.com/nikitakit/self-attentive-parser) in the ``fold benepar_en3/``
+- prepare model [benepar_en3](https://github.com/nikitakit/self-attentive-parser) in the fold ``benepar_en3/``
 
-- cd ``./source`` and run ``python parse.py --inputs corpus.demo.txt --topn 500``.
+- ``cd ./source`` and ``python parse.py --inputs corpus.demo.txt --topn 500``.
     - the ``topn`` indicates the word frequency.
     - change the ``topn`` and get the corpus with syntatic replacement in different stages.
 
@@ -32,6 +32,7 @@ tokenizer=AutoTokenizer.from_pretrained(tokenizer_name,**tokenizer_kwarg)
 model=AutoModelForMaskedLM.from_pretrained(model_name)
 model.resize_token_embeddings(len(tokenizer))
 ```
+
 ## Citation
 
 ```bibtex
