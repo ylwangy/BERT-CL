@@ -5,13 +5,12 @@
 <img src="./figs/cl-example.png">
 
 ## Env installation
+```
 pip install benepar
-
 pip install wordfreq
-
 pip install transformers
-
 pip install en_core_web_sm-2.3.0.tar.gz
+```
 
 ## Parse the sentences in the corpus
 - prepare model [benepar_en3](https://github.com/nikitakit/self-attentive-parser) in the ``fold benepar_en3/``
